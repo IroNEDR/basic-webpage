@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
+:root {
+    /* Adjust this to your color palette */
+    --primary-color: rgba(13, 110, 139, 0.75);
+    --secondary-color: rgba(229, 148, 0, 0.9);
+    /*  Should be a bit darker then the primary color */
+    --overlay-color: rgba(24, 39, 51, 0.85);
+}
+
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -12,5 +22,8 @@ body {
     justify-content:  center;
     height: 100vh;
     overflow: hidden;
-    margin: 0;
+    line-height: 1.4;
+}
+
+.container {
 }
